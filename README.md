@@ -1,5 +1,5 @@
 # browser
-Library using on a sqs.io
+## using
 
 ```html
 <script src="/js/RtcSSH2.js"></script>
