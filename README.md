@@ -1,6 +1,8 @@
 # browser
+The SSH2 WebRTC client library used on the sqs.io page. 
+
 ### using
-The SSH2 WebRTC client library used on the sqs.io page 
+
 ```html
 <script src="/js/RtcSSH2.js"></script>
 ```
