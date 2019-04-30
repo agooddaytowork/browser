@@ -27,7 +27,7 @@ rtc = new Stream.RtcNegotiation()
 				console.log(e.message)
 			})
 			ssh2.on('ready', ()=> {
-				ssh2.shell({term: 'xterm-256color',rows:24, cols:80},(err, channel)=> {
+				ssh2.shell({term: 'xterm-256color',rows:24, cols:80}, (err, channel)=> {
 					channel.write("ls -l")       	 // example send command
 					channel.on('data', (data)=> {
 						console.log(data.toString())  // receive 
