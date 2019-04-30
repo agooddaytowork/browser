@@ -1,6 +1,12 @@
 # browser
 Library using on a sqs.io
 
+```html
+<script src="/js/RtcSSH2.js"></script>
+```
+## example
+```html
+<script>
 rtc = new Stream.RtcNegotiation()
 	rtc.init({
 		remoteKey: '<uuid>',
@@ -44,3 +50,5 @@ rtc = new Stream.RtcNegotiation()
 	rtc.on('disconnected', ()=> {
 		console.log("RTC disconnectet")
 	})
+</script>
+```
