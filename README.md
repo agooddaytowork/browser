@@ -12,7 +12,7 @@ The SSH2 WebRTC client library used on the sqs.io page.
 rtc = new Stream.RtcNegotiation()
 	rtc.init({
 		remoteKey: '<uuid>',
-		signallingServer: '<wss://...>'
+		signallingServer: 'wss://sqs.io'
 		port: 443
 	})
 	rtc.on('createRTCPeerConnection', ()=> {
