@@ -44,7 +44,7 @@ rtc = new Stream.RtcNegotiation()
 		console.log(err)
 	})
 	rtc.on('disconnected', ()=> {
-		console.log("RTC disconnectet")
+		console.log("RTC disconnected")
 	})
 </script>
 ```
