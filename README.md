@@ -1,10 +1,10 @@
 # browser
-## using
+### using
 
 ```html
 <script src="/js/RtcSSH2.js"></script>
 ```
-## example
+### example
 ```html
 <script>
 rtc = new Stream.RtcNegotiation()
